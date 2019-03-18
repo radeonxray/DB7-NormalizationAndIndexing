@@ -52,6 +52,12 @@ On the other hand, a "unsafe" approache would be:
 UPDATE employees SET repPhone = 85858585 WHERE employees.customerName = ?;
 ```
 
+As for the repEmail, the following statement will perform not properly update:
+
+```mysql
+update CustomerOverview set repEmail = “theNewEmail@gmail.com” where customerName = "Signal Gift Stores" and repName = "Leslie Jennings"
+```
+
 -----
 
 ### Ex 4
