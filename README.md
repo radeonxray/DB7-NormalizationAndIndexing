@@ -117,7 +117,7 @@ Second Normal Form is violated clearly, due to information regarding the rep bei
 
 
 *Third Normal Form*
-As mentioned in *Second Normal Form*, there are several columns that not dependent on the primary-key, since reps have been tied directly to customer.
+As mentioned in *Second Normal Form*, there are several columns that not dependent on the primary-key, since reps have been tied directly to customer. Since *Second Normal Form* is violated, *Third Normal Form* can never be correct.
 
 
 -----
