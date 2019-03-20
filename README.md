@@ -107,7 +107,7 @@ use classicmodels;
 
 *First Normal Form*
 
-First normal form might be considered voilated in the given example, due to customerName being presented as one complete column, and not separat colums for firstName and LastName.
+First normal form might be considered voilated in the given example, due to contactName being presented as one complete column, and not separat colums for firstName and LastName.
 
 Secondly, the same logic could be applied to contactName and repName.
 
